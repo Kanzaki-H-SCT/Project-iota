@@ -9,7 +9,7 @@ The following examples are available for the new Chats service:
 - `getChats([chatMid]).chats[0]` - getGroup. >> In case, [] is a list.
 - `getChatV2(chatMid)` - getGroup.
   
-"""
+
     Above functions can be run with following attributes:
      - type
      - chatMid
@@ -30,10 +30,10 @@ The following examples are available for the new Chats service:
   
 > Example Request Result: Chat(type=0, chatMid='', createdTime='', notificationDisabled=False, favoriteTimestamp=0, chatName='', picturePath='', extra=Extra(groupExtra=GroupExtra(creator='', preventedJoinByTicket=True, invitationTicket='', memberMids={'': }, inviteeMids={'': }), peerExtra=None))
 
-  """
+  
 
 - `updateChat(chatMid, UpdatedAttribute)` - updateGroup.
-  """
+  
       > UpdatedAttribute can be determined as follow:
           NAME = 1
           PICTURE_STATUS = 2
@@ -43,7 +43,7 @@ The following examples are available for the new Chats service:
           FAVORITE_TIMESTAMP = 32
           CHAT_TYPE = 64
   
-  """
+  
    
 - `deleteOtherFromChat(chatMid, [userMid])` - kickoutFromGroup.
 - `deleteSelfFromChat` - leaveGroup.
