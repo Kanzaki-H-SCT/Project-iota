@@ -72,9 +72,9 @@ The Group service has been discontinued and replaced by the Chats service. The A
 
 LINEPY is originally public by Fadhiil Rachman. 
 
-* Special thanks to Github user: ratezpro - Provided examples of Chat service *
+` Special thanks to Github user: ratezpro - Provided examples of Chats service `
 
-CT Core Team Fixed all issue of Linepy with adding Chats Service, also giving a tutorial.
+* CT Core Team Fixed all issue of Linepy with adding Chats Service, also giving a tutorial. *
 
 Appreciate to all Github Resouces which related to LINEPY. All of them may ever help this repository.
 
