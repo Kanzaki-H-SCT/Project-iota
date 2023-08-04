@@ -66,7 +66,7 @@ The following examples are available for the new Chats service:
 
   Please read the entire README.md file, which is a respect for all of the developer, modifier, and all of the user participated in this project.
   
-# CTCoreTeam_LINEPY_Modified
+### CTCoreTeam & Thanks
 
 The Group service has been discontinued and replaced by the Chats service. The API has been fixed to accommodate these changes and includes the necessary endpoints for the new service.
 
@@ -75,8 +75,6 @@ LINEPY is originally public by Fadhiil Rachman.
 * Special thanks to Github user: ratezpro - Provided examples of Chat service *
 
 CT Core Team Fixed all issue of Linepy with adding Chats Service, also giving a tutorial.
-
-# Readme.md
 
 Appreciate to all Github Resouces which related to LINEPY. All of them may ever help this repository.
 
