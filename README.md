@@ -1,11 +1,16 @@
 ### Startization - Project iota
 
-The following examples are available for the new Chats service:
+* Welcome to the world of Project - IOTA. We are CT Core Team, aims to provide a long-term API update for linepy.
 
-* 'chatMid' equal to previous version 'group.id' *
-* Left side is Chats Service, while right side is for comparing to previous group service. *
+If you want to encourage our team to continue the updates, leave a star on our Github project!
+
+The following tutorial are available for the new Chats service.
 
 # Chats Service Explain
+
+> Note: 'chatMid' equal to previous version 'group.id' 
+* Left side is Chats Service, while right side is for comparing to previous group service. 
+
 - `getChats([chatMid]).chats[0]` - getGroup. >> In case, [] is a list.
 - `getChatV2(chatMid)` - getGroup.
   
@@ -30,7 +35,12 @@ The following examples are available for the new Chats service:
   
 > Example Request Result: Chat(type=0, chatMid='', createdTime='', notificationDisabled=False, favoriteTimestamp=0, chatName='', picturePath='', extra=Extra(groupExtra=GroupExtra(creator='', preventedJoinByTicket=True, invitationTicket='', memberMids={'': }, inviteeMids={'': }), peerExtra=None))
 
-  
+- `getAllChatMids` - getGroupIdsJoined.
+
+* You are asked to change the init value yourself, while there have difference usage, from None to True. Otherwise, it will returns an empty set.
+      > Attributes:
+          - memberChatMids
+          - invitedChatMids
 
 - `updateChat(chatMid, UpdatedAttribute)` - updateGroup.
   
@@ -48,7 +58,7 @@ The following examples are available for the new Chats service:
 - `deleteOtherFromChat(chatMid, [userMid])` - kickoutFromGroup.
 - `deleteSelfFromChat` - leaveGroup.
 
-  Following is all the new Chats Service function, while there's no compare anymore.
+  Following is all the new Chats Service function, while there's no more comparison.
 
   - getChatRoomAnnouncementsBulk
   - getChatRoomAnnouncements
@@ -59,7 +69,6 @@ The following examples are available for the new Chats service:
   - cancelChatInvitation
   - createChat
   - findChatByTicket
-  - getAllChatMids
   - inviteIntoChat
   - reissueChatTicket
   - rejectChatInvitation
