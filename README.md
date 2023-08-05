@@ -1,10 +1,10 @@
 ### Startization - Project iota
 
-* Welcome to the world of Project - IOTA. We are CT Core Team, aims to provide a long-term API update for linepy.
+` Welcome to the world of Project - IOTA. We are CT Core Team, aims to provide a long-term API update for linepy. `
 
-If you want to encourage our team to continue the updates, leave a star on our Github project!
+` If you want to encourage our team to continue the updates, leave a star on our Github project! `
 
-The following tutorial are available for the new Chats service.
+` The following tutorial are available for the new Chats service. `
 
 # Chats Service Explain
 
@@ -37,7 +37,7 @@ The following tutorial are available for the new Chats service.
 
 - `getAllChatMids` - getGroupIdsJoined.
 
-* You are asked to change the init value yourself, while there have difference usage, from None to True. Otherwise, it will returns an empty set.
+> You are asked to change the init value yourself, while there have difference usage, from None to True. Otherwise, it will returns an empty set.
       > Attributes:
           - memberChatMids
           - invitedChatMids
