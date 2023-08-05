@@ -6,7 +6,7 @@
 
 ` The following tutorial are available for the new Chats service. `
 
-# Chats Service Explain
+# Chats Service Tutorial
 
 > Note: 'chatMid' equal to previous version 'group.id' 
 * Left side is Chats Service, while right side is for comparing to previous group service. 
@@ -38,7 +38,7 @@
 - `getAllChatMids` - getGroupIdsJoined.
 
 > You are asked to change the init value yourself, while there have difference usage, from None to True. Otherwise, it will returns an empty set.
-      > Attributes:
+      * Attributes:
           - memberChatMids
           - invitedChatMids
 
@@ -73,7 +73,7 @@
   - reissueChatTicket
   - rejectChatInvitation
 
-  Please read the entire README.md file, which is a respect for all of the developer, modifier, and all of the user participated in this project.
+  # Please read the entire README.md file, which is a respect for all of the developers or modifiers, and all of the users participated in this project.
   
 ### CTCoreTeam & Thanks
 
