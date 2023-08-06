@@ -8,8 +8,9 @@
 
 # Chats Service Tutorial
 
-> Note: 'chatMid' equal to previous version 'group.id' 
-* Left side is Chats Service, while right side is for comparing to previous group service. 
+> Note: 'chatMid' equal to previous version 'group.id'
+
+      Left side is Chats Service, while right side is for comparing to previous group service. 
 
 - `getChats([chatMid]).chats[0]` - getGroup. >> In case, [] is a list.
 - `getChatV2(chatMid)` - getGroup.
@@ -56,12 +57,6 @@
 - `deleteOtherFromChat(chatMid, [userMid])` - kickoutFromGroup.
 - `deleteSelfFromChat` - leaveGroup.
 
-- `getChatRoomAnnouncementsBulk` - getChatRoomAnnouncementsBulk      
-- `getChatRoomAnnouncements` - getChatRoomAnnouncements
-- `createChatRoomAnnouncement` - createChatRoomAnnouncement
-- `removeChatRoomAnnouncement` - removeChatRoomAnnouncement
-  > Yeah, as you see, actually above these four functions haven't changed.
-
 - `acceptChatInvitationByTicket` - acceptGroupInvitationByTicket
 - `acceptChatInvitation` - acceptGroupInvitation
 - `cancelChatInvitation` - cancelGroupInvitation
@@ -70,6 +65,13 @@
 - `inviteIntoChat` - inviteIntoGroup
 - `reissueChatTicket` - reissueGroupTicket
 - `rejectChatInvitation` - rejectGroupInvitation
+
+- `getChatRoomAnnouncementsBulk` - getChatRoomAnnouncementsBulk      
+- `getChatRoomAnnouncements` - getChatRoomAnnouncements
+- `createChatRoomAnnouncement` - createChatRoomAnnouncement
+- `removeChatRoomAnnouncement` - removeChatRoomAnnouncement
+  
+      Yeah, as you see, actually above these four functions haven't changed.
 
   # Please read the entire README.md file, which is a respect for all of the developers or modifiers, and all of the users participated in this project.
   
