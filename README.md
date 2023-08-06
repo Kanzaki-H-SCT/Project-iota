@@ -56,20 +56,20 @@
 - `deleteOtherFromChat(chatMid, [userMid])` - kickoutFromGroup.
 - `deleteSelfFromChat` - leaveGroup.
 
-  Following is all the new Chats Service function, while there's no more comparison.
+- `getChatRoomAnnouncementsBulk` - getChatRoomAnnouncementsBulk      
+- `getChatRoomAnnouncements` - getChatRoomAnnouncements
+- `createChatRoomAnnouncement` - createChatRoomAnnouncement
+- `removeChatRoomAnnouncement` - removeChatRoomAnnouncement
+  > Yeah, as you see, actually above these four functions haven't changed.
 
-  - getChatRoomAnnouncementsBulk
-  - getChatRoomAnnouncements
-  - createChatRoomAnnouncement
-  - removeChatRoomAnnouncement
-  - acceptChatInvitationByTicket
-  - acceptChatInvitation
-  - cancelChatInvitation
-  - createChat
-  - findChatByTicket
-  - inviteIntoChat
-  - reissueChatTicket
-  - rejectChatInvitation
+- `acceptChatInvitationByTicket` - acceptGroupInvitationByTicket
+- `acceptChatInvitation` - acceptGroupInvitation
+- `cancelChatInvitation` - cancelGroupInvitation
+- `createChat` - createGroup
+- `findChatByTicket` - findGroupByTicket
+- `inviteIntoChat` - inviteIntoGroup
+- `reissueChatTicket` - reissueGroupTicket
+- `rejectChatInvitation` - rejectGroupInvitation
 
   # Please read the entire README.md file, which is a respect for all of the developers or modifiers, and all of the users participated in this project.
   
