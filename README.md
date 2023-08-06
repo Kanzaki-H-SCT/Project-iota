@@ -14,16 +14,16 @@
 - `getChats([chatMid]).chats[0]` - getGroup. >> In case, [] is a list.
 - `getChatV2(chatMid)` - getGroup.
 
-    Above functions can be run with following attributes:
-     - type
-     - chatMid
-     - createdTime
-     - notificationDisabled
-     - favoriteTimestamp
-     - chatName
-     - picturePath
-     - extra
-         - extra also contain different attributes:
+      Above functions can be run with following attributes:   
+      - type
+      - chatMid
+      - createdTime
+      - notificationDisabled
+      - favoriteTimestamp
+      - chatName
+      - picturePath
+      - extra
+          <!> extra also contain different attributes:
              - groupExtra
                  - creator
                  - preventedJoinByTicket
@@ -36,15 +36,15 @@
 
 - `getAllChatMids` - getGroupIdsJoined.
 
-> You are asked to change the init value yourself, while there have difference usage, from None to True. Otherwise, it will returns an empty set.
+> You are asked to change the init value yourself, while there have different usages, from None to True, or False. Otherwise, it will returns an empty set.
 
-      * Attributes:
+      Attributes:
           - memberChatMids
           - invitedChatMids
 
 - `updateChat(chatMid, UpdatedAttribute)` - updateGroup.
   
-       * UpdatedAttribute can be determined as follow:
+       UpdatedAttribute can be determined as follow:
           - NAME = 1
           - PICTURE_STATUS = 2
           - PREVENTED_JOIN_BY_TICKET = 4
