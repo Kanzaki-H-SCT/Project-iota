@@ -671,7 +671,11 @@ class Talk(object):
 
     @loggedIn
     def getChatV2(self, groupId):
-        return self.talk.getChats(GetChatsRequest([groupId], True, True)).chat[0]
+        req = GetChatsRequest()
+        req.chatMids = [groupId]
+        req.withMembers = True
+        req.withInvitees = True
+        return self.talk.getChats(req).chats[0]
         
     @loggedIn
     def rejectChatInvitation(self,chatMid):
