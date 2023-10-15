@@ -642,7 +642,7 @@ class Talk(object):
     @loggedIn
     def getAllChatMids(self):
         req = GetAllChatMidsRequest()
-        req.withMembersChats = True
+        req.withMemberChats = True
         req.withInvitedChats = True
         return self.talk.getAllChatMids(req,1)
 
